@@ -1,0 +1,128 @@
+#head2{
+	padding-top:28px;
+	margin-left:6.5px;	}
+#navStay{
+	
+	margin-left:3.2%;
+	padding-left:6%;}
+	
+#banner{
+	width: 1170px;
+	margin:auto;
+
+	}
+
+
+/* Common division block */
+.holder
+{
+    
+    float: left;
+    overflow: hidden;
+  
+}
+/* Smooth Caption */
+
+
+.go-left
+{
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0px;
+	right: -216px;
+	width: 200px;
+	text-align: center;
+	font-size: 18px;
+	margin: 0px;
+	
+	-webkit-transition: 0.5s Ease;
+	-moz-transition: 0.5s Ease;
+	-o-transition: 0.5s Ease;
+	transition: 0.5s Ease;
+	
+}
+.smooth:hover > .go-left
+{
+	right: 0px;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#filter {
+
+	display: block;
+	height: 39px;
+	margin: 55px auto;
+	position: relative;
+	width: 600px;
+	text-align:center;
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+
+#filter a{
+	color: #000;
+	display: inline-block;
+	height: 39px;
+	line-height: 37px;
+	padding: 0 15px;
+	
+}
+
+#filter a:hover{
+	text-decoration:none;
+}
+
+
+
+
+/*----------------------------
+	Content area
+-----------------------------*/
+
+
+#fcontainer{
+	display: block;
+	width: 850px;
+	margin: 0 auto;
+}
+
+#fcontainer li{
+
+	float: left;
+	height: 200px;
+	list-style: none outside none;
+	margin: 6px;
+	position: relative;
+	width: 200px;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+
+#fcontainer ul{
+	overflow:hidden;
+}
+
+#fcontainer ul.hidden{
+	display:none;
+}
+/*-------------------*/
+
+#box1{	width: 90%;
+	margin: auto;}
+
+h3 span{
+	position:absolute;
+	left: 70px;
+	top: 40px;
+}
+/*------------ Header Code --------------*/
